@@ -1,7 +1,63 @@
-## 2d-unity-adventure-game
+# 2D Unity Adventure Game
 
+A 2D platform-style adventure game built with Unity and C#. The player explores different areas of the map, interacts with NPCs, fights enemies using a bow, and tries to reach the final objective: obtaining the legendary sword.
 
+This project was completed as part of my bachelor's studies, where I worked on modifying, improving, and organizing the game mechanics and project structure.
 
+## Project Overview
+
+This game is a simple 2D adventure prototype focused on gameplay programming in Unity. The main goal is to move through the level, survive enemy encounters, and complete the final mission.
+
+The game includes:
+
+- Player movement and jumping
+- Bow-and-arrow combat
+- Health and damage system
+- Friendly NPC interaction
+- Enemy chase and attack behavior
+- Multiple map sections
+- Win and lose states
+- Background music loop
+
+## Gameplay Objective
+
+The player progresses through the following sequence:
+
+1. Interact with NPCs in the village
+2. Receive the bow weapon
+3. Leave the blocked village area
+4. Survive enemy encounters in the forest
+5. Reach and obtain the legendary sword to win the game
+
+If the player's health reaches zero, the game ends.
+
+## Features
+
+### Player
+- Left and right movement
+- Jumping
+- Projectile attack using bow and arrow
+- Health system with 3 lives
+
+### Friendly NPCs
+- Interaction system
+- Chief NPC gives the bow to the player
+- Guard NPC helps guide game progression
+
+### Enemy NPCs
+- Detect and chase the player within range
+- Damage the player on contact
+- Health system for enemies
+- Different enemy strength levels
+
+### Environment
+- Multiple sections: Village, Open Plains, Forest, Final Area
+- Cloud movement
+- Background soundtrack loop
+
+### Game States
+- Win screen when the sword is collected
+- Game over screen when health reaches zero
 
 ## Tech Stack
 
